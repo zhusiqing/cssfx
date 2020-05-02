@@ -5,7 +5,7 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-129681195-4',
+        id: 'UA-86109050-7',
         dev: false
       }
     ]
@@ -30,11 +30,11 @@ export default {
           'Browse a carefully crafted collection of loaders, hover effects, transitions, and other CSS effects to use in your next project. Effects are designed with an emphasis on fluidity, simplicity, and ease of use.'
       },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://cssfx.dev' },
+      { property: 'og:url', content: 'https://cssfx.lovejade' },
       { property: 'og:image', content: 'http://cssfx.dev/logo.png' },
       {
         property: 'og:image:secure_url',
-        content: 'https://cssfx.dev/logo.png'
+        content: 'https://cssfx.lovejade/logo.png'
       },
       { property: 'og:image:alt', content: 'cssfx logo' },
       { property: 'og:image:width', content: '1000' },
