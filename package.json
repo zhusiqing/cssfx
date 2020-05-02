@@ -1,14 +1,16 @@
 {
   "name": "cssfx",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Beautifully simple click-to-copy CSS effects",
   "author": "Jonathan Olaleye",
   "license": "MIT",
-  "repository": "github:jolaleye/cssfx",
+  "repository": "github:TheHumanComedy/cssfx",
   "bugs": "https://github.com/jolaleye/cssfx/issues",
   "scripts": {
+    "start": "npm run dev",
     "dev": "nuxt",
-    "gen": "nuxt generate"
+    "gen": "nuxt generate",
+    "deploy": "./scripts/deploy.sh"
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.2.0",
@@ -18,7 +20,7 @@
     "vue-highlightjs": "^1.3.3"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.14.0",
     "raw-loader": "^2.0.0",
     "sass-loader": "^7.1.0"
   }
