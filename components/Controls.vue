@@ -35,6 +35,7 @@
       <EffectFilter label="Inputs" v-model="filters.input"/>
       <EffectFilter label="Loaders" v-model="filters.loader"/>
       <EffectFilter label="Text" v-model="filters.text"/>
+      <EffectFilter label="Other" v-model="filters.other"/>
     </div>
   </div>
 </template>
@@ -51,7 +52,8 @@ export default {
         button: true,
         input: true,
         loader: true,
-        text: true
+        text: true,
+        other: true
       }
     };
   },
@@ -67,7 +69,8 @@ export default {
     "filters.button": "updateFilters",
     "filters.input": "updateFilters",
     "filters.loader": "updateFilters",
-    "filters.text": "updateFilters"
+    "filters.text": "updateFilters",
+    "filters.other": "updateFilters"
   }
 };
 </script>
