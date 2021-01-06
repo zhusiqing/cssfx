@@ -1,4 +1,8 @@
+const isProd = process.env.NODE_ENV === 'production'
 export default {
+  router: {
+    base: isProd ? '/cssfx/' : '/'
+  },
   css: ['~/assets/main.css'],
   plugins: ['~/plugins/highlight.js', '~/plugins/clipboard.js'],
   modules: [
