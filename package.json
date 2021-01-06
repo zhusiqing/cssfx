@@ -2,10 +2,9 @@
   "name": "cssfx",
   "version": "1.0.0",
   "description": "Beautifully simple click-to-copy CSS effects",
-  "author": "Jonathan Olaleye",
+  "author": "zhusiqing",
   "license": "MIT",
-  "repository": "github:TheHumanComedy/cssfx",
-  "bugs": "https://github.com/jolaleye/cssfx/issues",
+  "repository": "github:zhusiqing/cssfx",
   "scripts": {
     "start": "npm run dev",
     "dev": "nuxt",

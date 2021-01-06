@@ -3,7 +3,7 @@
     <div class="color"></div>
     <Navbar/>
     <Header/>
-    <CarbonAd/>
+    <!-- <CarbonAd/> -->
     <Effects :effects="effects" @inspect="inspect"/>
     <div class="inspect-bg" v-if="inspecting"></div>
     <transition name="inspect">
