@@ -5,6 +5,7 @@
   "author": "zhusiqing",
   "license": "MIT",
   "repository": "github:zhusiqing/cssfx",
+  "homepage": "https://zhusiqing.github.io/cssfx",
   "scripts": {
     "start": "npm run dev",
     "dev": "nuxt",
