@@ -3,7 +3,7 @@
   <h3 align="center">Beautifully simple click-to-copy CSS effects</h3>
 </p>
 <p align="center">
-  <a href=" https://zhusiqing.github.io/cssfx"> https://zhusiqing.github.io/cssfx</a>
+  <a href="https://zhusiqing.github.io/cssfx"> https://zhusiqing.github.io/cssfx</a>
 </p>
 
 >This repository forked from [TheHumanComedy/cssfx](https://github.com/TheHumanComedy/cssfx)。 There may be some expansion or modification in the future.
