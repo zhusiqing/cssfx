@@ -10,10 +10,18 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: build and deploy
-      uses: JamesIves/github-pages-deploy-action@main
-      env:
-        ACCESS_TOKEN: ${{ secrets.PUSH_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: dist
-        BUILD_SCRIPT: npm ci && npm run gen
+    - name: Install and Build
+      run: |
+        npm ci
+        npm run gen
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.1
+      with:
+        branch: gh-pages
+        folder: dist
+      # env:
+      #   ACCESS_TOKEN: ${{ secrets.PUSH_TOKEN }}
+      #   BRANCH: gh-pages
+      #   FOLDER: dist
+      #   BUILD_SCRIPT: npm ci && npm run gen
