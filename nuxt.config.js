@@ -53,6 +53,10 @@ export default {
         href: 'https://fonts.googleapis.com/css?family=Poppins:300,400,600|Roboto+Mono'
       },
       {
+        rel: "stylesheet",
+        href: "https://fonts.font.im/css?family=Do+Hyeon"
+      },
+      {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: '/apple-touch-icon.png'
